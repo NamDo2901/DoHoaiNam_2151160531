@@ -14,11 +14,11 @@ public class Main {
 		AddAndDelete.showEmployee();
 	      while(true){
 	      try {
-	              System.out.println("*******************");
+	              System.out.println("--------------------");
 	              System.out.println("1-Add new");
 	              System.out.println("2-Delete");
 	              System.out.println("3-Exit");
-	              System.out.println("*******************");
+	              System.out.println("--------------------");
 	              System.out.print("Your option: ");
 	              int choose =scan.nextInt();
 	              if (choose>3){
